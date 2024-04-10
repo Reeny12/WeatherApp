@@ -94,3 +94,24 @@ document.addEventListener("DOMContentLoaded", function() {
     // Update the HTML element with the current date
     document.getElementById("current-date").innerText = formattedDate;
 });
+
+ScrollReveal().reveal(".card", {
+    ...scrollRevealOption,
+    delay: 1500,
+  });
+  ScrollReveal().reveal("card2", {
+    ...scrollRevealOption,
+    delay: 2000,
+  });
+  ScrollReveal().reveal(".header__content p", {
+    ...scrollRevealOption,
+    delay: 2500,
+  });
+  ScrollReveal().reveal(".header__content div", {
+    ...scrollRevealOption,
+    delay: 3000,
+  });
+  
+  ScrollReveal().reveal(".header .nav__links", {
+    delay: 3500,
+  });
