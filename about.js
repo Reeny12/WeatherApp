@@ -51,3 +51,8 @@ ScrollReveal().reveal(".header__content div", {
 ScrollReveal().reveal(".header .nav__links", {
   delay: 3500,
 });
+
+document.getElementById("exploreBtn").onclick = function() {
+  // Replace 'YOUR_VIDEO_URL' with the actual URL of your video
+  window.location.href = "https://youtube.com/shorts/8KsVHi4FRWQ";
+}
