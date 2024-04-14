@@ -13,3 +13,11 @@
     "text-encoding": "^0.7.0"
   }
 }
+
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html style.css script.js dist/ && cp -r images dist/"
+  }
+}
