@@ -8,7 +8,7 @@
   "scripts": {
     "test": "jest",
     "build": "npm install && npm run generate-assets && npm run build-app",
-    "generate-assets": "webpack --config webpack.config.js"
+    "generate-assets": ""
   },
   "dependencies": {
     "node-fetch": "^3.3.2",
